@@ -25,3 +25,31 @@ This project was created to practice responsive layouts and strengthen Bootstrap
 1. Clone the repository:  
    ```bash
    git clone https://github.com/your-username/saltandpepper-clone.git
+
+---
+
+## 🎯 Purpose & Learning Goals  
+This project was built to:  
+- Practice cloning real-world websites  
+- Improve responsive design skills  
+- Explore Bootstrap’s grid and components  
+- Add a portfolio project for front-end development  
+
+---
+
+## 📌 Future Improvements  
+- Add JavaScript for interactivity  
+- Integrate backend for dynamic content  
+- Enhance animations and transitions  
+
+---
+
+## 📷 Live Demo  
+[👉 View Project on Netlify](https://saltandpepperclone.netlify.app/)  
+
+---
+
+## 📝 License  
+This project is for **educational and portfolio purposes only**.  
+All rights to the original **Salt’n Pepper** brand belong to their respective owners.  
+
