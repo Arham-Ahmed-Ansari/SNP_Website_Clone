@@ -1,0 +1,441 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    color: #fff;
+}
+
+/* --------------------------navbar--------------------------------- */
+
+.cust-nav {
+    background-color: #000000;
+}
+
+.cust-nav ul li a {
+    color: #fff;
+    margin: 0px 10px;
+}
+
+.cust-nav ul li button {
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.cust-nav ul li button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.cust-nav ul li button i {
+    font-size: 1.5rem;
+    margin-left: 5px;
+}
+
+.navbar-toggler {
+    color: #212529;
+    background-color: #f84444eb;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+/* --------------------------------------Brands-section----------------------- */
+
+.cust-heading {
+    width: 60%;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.cust-card {
+    width: 16rem;
+    background-color: #000000;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+}
+
+.card-body a {
+    padding: 10px 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.card-body a:hover {
+    background-color: red;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+
+.cust-card img {
+    width: 250px;
+    background-color: #fff;
+}
+
+
+/* -------------------------------------------franchise-section----------------- */
+
+#franchise-section {
+    width: 100%;
+    height: fit-content;
+    background-image: url(assets/images/bg.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.parent-box {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.box1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.box1 h5 {
+    color: red;
+}
+
+.box1 i {
+    margin-bottom: 10px;
+}
+
+.box1 button {
+    width: 35%;
+    border-radius: 20px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 button i {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-right: 5px;
+
+}
+
+.box1 button:hover {
+    background-color: red;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.box2 {
+    width: 50%;
+}
+
+
+/* ---------------------------------------------express-franchise--------------- */
+
+#express-franchise {
+    width: 100%;
+    height: fit-content;
+    background-image: url(./assets/images/bg.webp);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.franchise-card {
+    width: 22rem;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    height: 470px;
+}
+
+.franchise-card img {
+    width: 100%;
+    height: 200px;
+}
+
+.franchise-card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.franchise-card-body h6 {
+    color: red;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+}
+
+.franchise-card-body i {
+    margin-top: 10px;
+}
+
+.franchise-card-body a {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    width: fit-content;
+
+}
+
+/* -------------------------------------village-franchise--------------------- */
+
+#village-franchise {
+    width: 100%;
+    background-color: #0F0F0F;
+    height: fit-content;
+}
+
+
+/* ------------------------------------------opening-soon-------------------- */
+
+
+#opening-soon {
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 50px;
+}
+
+.cust-heading span {
+    font-size: 1.2rem;
+}
+
+.op-card {
+    width: 20rem;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 12px;
+    margin-bottom: 20px;
+}
+
+.op-card img {
+    width: 50px;
+}
+
+.op-card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.op-card-body h6 {
+    color: red;
+    font-size: 0.8rem;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+}
+
+.op-card-body p {
+    font-weight: 600;
+}
+
+/* -------------------------------------------footer-------------------------- */
+
+#footer {
+    width: 100%;
+    height: fit-content;
+    background-image: url(assets/images/bg.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    padding-bottom: 50px;
+}
+
+.footer-intro {
+    width: 30%;
+}
+
+.footer-intro img {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.footer-intro p {
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+.footer-intro h6 {
+    cursor: pointer;
+}
+
+.site-link {
+    text-align: center;
+    width: 15%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.site-link h6 {
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+
+.contact-us {
+    width: 20%;
+    height: fit-content;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contact-us h6 {
+    margin-top: 10px;
+}
+
+.contact-us p {
+    font-size: 0.9rem;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.follow-us {
+    width: 20%;
+    text-align: center;
+}
+
+.icon-div {
+    width: 30px;
+    padding: 5px 20px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.icon-div i {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.follow-us img {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+#sub-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+}
+
+/* 
+#sub-footer h6 {
+    display: inline-block;
+} */
+
+
+@media (max-width:575px) {
+    .cust-heading {
+        width: 100%;
+    }
+
+    .cust-card {
+        width: 90%;
+    }
+
+    .cust-card img {
+        width: 100%;
+    }
+
+    .parent-box {
+        flex-direction: column;
+    }
+
+    .box1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .box1 button {
+        width: 50%;
+    }
+
+    .box2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .box2 img {
+        width: 100%;
+    }
+
+    .cust-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-intro {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .site-link {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .contact-us {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .parent-icon {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .follow-us {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    #sub-footer {
+        font-size: 0.9rem;
+        flex-direction: column;
+    }
+
+
+}
