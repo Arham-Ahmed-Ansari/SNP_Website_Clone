@@ -24,7 +24,7 @@ This project was created to practice responsive layouts and strengthen Bootstrap
 ## 🚀 Getting Started  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/saltandpepper-clone.git
+   git clone https://github.com/Arham-Ahmed-Ansari/SNP_Website_Clone
 
 ---
 
@@ -45,7 +45,8 @@ This project was built to:
 ---
 
 ## 📷 Live Demo  
-[👉 View Project on Netlify](https://saltandpepperclone.netlify.app/)  
+[👉 View Project on Netlify](https://saltandpepperclone.netlify.app/) 
+[👉 View Code on GitHub](https://github.com/your-username/saltandpepper-clone)
 
 ---
 
